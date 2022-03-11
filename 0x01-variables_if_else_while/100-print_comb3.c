@@ -6,18 +6,23 @@
  */
 int main(void)
 {
-	int x;
+	int c, i;
 
-	for (x = 0; x < 10; x++)
+	c = i = '0';
+	for (c = '0'; c <= '9'; c++)
 	{
-		putchar((x / 10) + '0');
-		putchar((x % 10) + '0');
-		if (x != 99)
+		for (i = '0'; i <= '9'; i++)
 		{
-			putchar(',');
-			putchar(' ');
+			putchar(c);
+			putchar(i);
+			if ((c != '9') || (c == '9' && i != '9'))
+ 			{
+																											putchar(',');
+		 		 putchar(' ');
+			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
 
