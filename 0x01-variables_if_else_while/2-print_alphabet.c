@@ -13,6 +13,5 @@ int main(void)
 	{
 		putchar(tolower(x));
 	}
-	putchar('\n);
 	return (0);
 }
