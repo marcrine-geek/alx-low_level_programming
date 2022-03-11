@@ -8,6 +8,7 @@
 int main(void)
 {
 	int x;
+
 	for (x = 'A'; x <= 'Z'; x++)
 	{
 		if (x != 'Q' && x != 'E')
