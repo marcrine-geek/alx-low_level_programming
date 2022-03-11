@@ -14,5 +14,6 @@ int main(void)
 		if (x != 'Q' && x != 'E')
 			putchar(tolower(x));
 	}
+	putchar('\n');
 	return (0);
 }
