@@ -17,10 +17,6 @@ int main(void)
 	{
 		putchar(toupper(x));
 	}
-<<<<<<< HEAD
 	putchar('\n');
-=======
-	putchar('\n);
->>>>>>> ac4066fa5d0666b0c6f3ccb06f7a2fb182fecd48
 	return (0);
 }
