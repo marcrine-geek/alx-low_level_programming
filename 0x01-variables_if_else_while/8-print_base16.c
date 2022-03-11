@@ -19,5 +19,6 @@ int main(void)
 	{
 		putchar(tolower(y));
 	}
+	putchar('\n');
 	return (0);
 }
