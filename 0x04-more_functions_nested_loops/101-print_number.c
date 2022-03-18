@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * Description: print a number
+ * print_number - prints an integer using _putchar(using recursion)
  *
- * Return: 0 Always
+ * @n: integer to be printed
  */
 void print_number(int n)
 {
