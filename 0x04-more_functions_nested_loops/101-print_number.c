@@ -1,22 +1,23 @@
 #include "main.h"
-/*
- * 8
+/**
  * Description: print a number
  *
  * Return: 0 Always
  */
 void print_number(int n)
 {
+	unsigned int num = n;
+
+	 /* print '-' in front of -ve integers and ensure n is +ve */
 	if (n < 0)
 	{
 		_putchar('-');
-		n = -n;
-		_putchar(n + '0');
+		num *= -1;
 	}
-	else
+	/* if num has more than 1-digit, print preceding digit first */
+	if (num >= 10)
 	{
-		_putchar((n / 10) + '0');
+		print_number(num / 10);
 	}
-	_putchar((n % 10) + '0');
-	_putchar('\n');
+	_putchar('0' + (num % 10));
 }
