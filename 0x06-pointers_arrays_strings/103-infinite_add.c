@@ -1,17 +1,18 @@
 #include "main.h"
-
 /**
  * a_to_int - get integer value of string of characters
  * @s: string to change to integer
  *
  * Return: integer value of string
  */
-
 int a_to_int(char *s)
 {
 	int i = 0;
+
 	int size = 0;
+
 	int place = 1;
+
 	int num = 0;
 
 	while (s[i])
@@ -26,7 +27,6 @@ int a_to_int(char *s)
 	}
 	return (num);
 }
-
 /**
  * infinite_add - adds two numbers
  * @n1: first input number
@@ -39,7 +39,6 @@ int a_to_int(char *s)
  *
  * Return: pointer to buffer or 0 if size of result is greater than buffer size
  */
-
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int num1, num2, sum, n, digits, i;
@@ -50,7 +49,6 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	n = sum;
 	digits = 1;
 	i = 0;
-
 	while ((n / 10) != 0)
 	{
 		digits++;
