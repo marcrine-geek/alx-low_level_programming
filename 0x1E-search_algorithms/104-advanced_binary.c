@@ -1,6 +1,5 @@
-
 /*
- * File: 104-advanced_binary.c
+ * File: 104-advanced_binary
  */
 
 #include "search_algos.h"
